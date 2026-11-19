@@ -27,7 +27,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.roomsiswa.R
 import com.example.roomsiswa.uicontroller.DestinasiEntry
 import com.example.roomsiswa.viewmodel.DetailSiswa
+import com.example.roomsiswa.viewmodel.EntryViewModel
 import com.example.roomsiswa.viewmodel.PenyediaViewModel
+import com.example.roomsiswa.viewmodel.UIStateSiswa
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

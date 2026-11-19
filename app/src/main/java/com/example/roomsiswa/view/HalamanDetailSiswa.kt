@@ -39,6 +39,7 @@ import com.example.roomsiswa.uicontroller.DestinasiDetailSiswa
 import com.example.roomsiswa.viewmodel.DetailSiswaUiState
 import com.example.roomsiswa.viewmodel.DetailViewModel
 import com.example.roomsiswa.viewmodel.PenyediaViewModel
+import com.example.roomsiswa.viewmodel.toSiswa
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

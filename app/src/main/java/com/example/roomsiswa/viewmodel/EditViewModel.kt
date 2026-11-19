@@ -1,5 +1,6 @@
 package com.example.roomsiswa.viewmodel
 
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.SavedStateHandle
@@ -24,7 +25,7 @@ class EditViewModel(
             uiStateSiswa = repositoriSiswa.getSiswaStream(idSiswa)
                 .filterNotNull()
                 .first()
-                .toUiStateSiswa(isEntryValid = true)
+                .toUIStateSiswa(isEntryValid = true)
         }
     }
 
