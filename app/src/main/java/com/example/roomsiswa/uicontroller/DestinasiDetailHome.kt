@@ -1,0 +1,8 @@
+package com.example.roomsiswa.uicontroller
+
+import com.example.roomsiswa.R
+
+object DestinasiDetailHome : DestinasiNavigasi {
+    override val route = "home"
+    override val titleRes = R.string.app_name
+}
