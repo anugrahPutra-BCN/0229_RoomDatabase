@@ -20,7 +20,6 @@ class EditViewModel(
 
     private val idSiswa: Int = checkNotNull(savedStateHandle[DestinasiDetailSiswa.itemIdArg])
     init {
-        val viewModelScope = null
         viewModelScope.launch {
             uiStateSiswa = repositoriSiswa.getSiswaStream(idSiswa)
                 .filterNotNull()

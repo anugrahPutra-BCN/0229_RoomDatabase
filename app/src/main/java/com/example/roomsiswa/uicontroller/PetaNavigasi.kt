@@ -10,6 +10,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.example.roomsiswa.uicontroller.DestinasiDetailSiswa.itemIdArg
+import com.example.roomsiswa.view.DetailSiswaScreen
 import com.example.roomsiswa.view.EditSiswaScreen
 import com.example.roomsiswa.view.EntrySiswaScreen
 import com.example.roomsiswa.view.HomeScreen

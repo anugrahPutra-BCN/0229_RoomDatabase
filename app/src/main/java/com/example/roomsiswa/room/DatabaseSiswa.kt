@@ -18,6 +18,7 @@ abstract class DatabaseSiswa : RoomDatabase() {
                 Room.databaseBuilder(context,
                     DatabaseSiswa::class.java,
                     "siswa_database")
+                    .fallbackToDestructiveMigration()
                     .build().also { Instance=it }
             })
         }

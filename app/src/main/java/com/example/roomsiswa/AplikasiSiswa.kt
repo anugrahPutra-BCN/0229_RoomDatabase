@@ -12,6 +12,12 @@ class AplikasiSiswa : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        instance = this
         container = ContainerDataApp(this)
+    }
+
+    companion object {
+        lateinit var instance: AplikasiSiswa
+            private set
     }
 }
